@@ -16,7 +16,7 @@ void GameTouch::HandleFingerPress(const int finger)
     if (Touch::IsFingerPressed(finger))
     {
         auto mousePosition = sf::Touch::getPosition(finger);
-        if (mousePosition.x < 640)
+        if (mousePosition.x < 400)
         {
             _playerComponent->RotateLeft();
         }

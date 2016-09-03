@@ -22,7 +22,7 @@ int main(int argc, const char *argv[])
 
     Config::Load(*FileOperations::GetInputFileStream("Config.txt"));
 
-    PATGame game(1280, 800, new PATDesktopFactory());
+    PATGame game(800, 1280, new PATDesktopFactory());
     game.Run();
 
     return 0;

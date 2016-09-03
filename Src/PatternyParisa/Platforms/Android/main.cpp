@@ -31,7 +31,7 @@ int main(int argc, const char *argv[])
     Config::Load(*FileOperations::GetInputFileStream("Config.txt"));
 
 
-    PATGame game(1280, 800, new PATAndroidFactory());
+    PATGame game(800, 1280, new PATAndroidFactory());
     game.Run();
 
     return 0;
