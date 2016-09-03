@@ -1,0 +1,13 @@
+{
+    "dependencies" : [
+        {
+            "name" : "Ancona",
+            "repository" : {
+                "type" : "git",
+                "location" : "https://github.com/tlein/Ancona",
+                "branch": "mouse-input"
+            },
+            "buildSystem" : "raft"
+        }
+    ]
+}

@@ -1,0 +1,727 @@
+{
+    "key": "map1",
+    "systems": {
+        "camera": {
+            "components": {
+                "screenCam": {
+                    "renderPriority": 0,
+                    "scale": 1,
+                    "size": {
+                        "x": 1280,
+                        "y": 800
+                    },
+                    "default": true,
+                    "follows": "player"
+                }
+            }
+        },
+        "position": {
+            "components": {
+                "player": {
+                    "position": {
+                        "x": -581,
+                        "y": 0
+                    },
+                    "velocity": {
+                        "x": 100,
+                        "y": 0
+                    }
+                },
+                "space_bg": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "velocity": {
+                        "x": 0,
+                        "y": 0
+                    }
+                }
+            }
+        },
+        "collision": {
+            "components": {
+                "player": {
+                    "dimension": {
+                        "dimension": {
+                            "x": 50,
+                            "y": 50
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rotation": 0
+                    },
+                    "bodyType": "solid",
+                    "collisionType": "player",
+                    "oneWayNormal": {
+                        "x": 0,
+                        "y": 0
+                    }
+                }
+            }
+        },
+        "drawable": {
+            "components": {
+                "player": {
+                    "topDrawable": {
+                        "__cpp_type": "ild::AnimatedDrawable",
+                        "key": "AnimatedDrawable",
+                        "inactive": false,
+                        "renderPriority": 0,
+                        "scale": {
+                            "x": 0.3,
+                            "y": 0.3
+                        },
+                        "rotation": 0,
+                        "positionOffset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priorityOffset": 0,
+                        "duration": 0.033,
+                        "frames": [
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable1",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00000",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable2",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00001",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable3",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00002",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable4",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00003",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable5",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00004",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable6",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00005",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable7",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00006",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable8",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00007",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable9",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00008",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable10",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00009",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable11",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00010",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable12",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00011",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable13",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00012",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable14",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00013",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable15",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00014",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable16",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00015",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable17",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00016",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            },
+                            {
+                                "__cpp_type": "ild::ImageDrawable",
+                                "key": "ImageDrawable18",
+                                "inactive": false,
+                                "renderPriority": 0,
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "rotation": 0,
+                                "positionOffset": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "priorityOffset": 0,
+                                "type": 2,
+                                "textureKey": "textures/PatternyParpar_00017",
+                                "isWholeImage": true,
+                                "textureRect": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "dimension": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                "space_bg": {
+                    "topDrawable": {
+                        "__cpp_type": "ild::ImageDrawable",
+                        "key": "ImageDrawable",
+                        "inactive": false,
+                        "renderPriority": -10,
+                        "scale": {
+                            "x": 1,
+                            "y": 1
+                        },
+                        "rotation": 0,
+                        "positionOffset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priorityOffset": 0,
+                        "type": 2,
+                        "textureKey": "textures/space_bg",
+                        "isWholeImage": false,
+                        "textureRect": {
+                            "position": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "dimension": {
+                                "x": 2440,
+                                "y": 1280
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entities": [
+        "screenCam",
+        "player",
+        "space_bg"
+    ],
+    "assets": [
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00000"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00001"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00002"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00003"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00004"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00005"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00006"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00007"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00008"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00009"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00010"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00011"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00012"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00013"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00014"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00015"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00016"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/PatternyParpar_00017"
+        },
+        {
+            "type": "TexturePNG",
+            "key": "textures/space_bg"
+        }
+    ]
+}
